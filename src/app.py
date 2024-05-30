@@ -1,7 +1,3 @@
-#doing some changes
-
-
-
 from langchain_community.llms import Ollama
 from langchain_core.messages import AIMessage,HumanMessage
 from langchain_community.document_loaders import WebBaseLoader
@@ -12,13 +8,18 @@ from dotenv import load_dotenv
 from langchain.prompts import ChatPromptTemplate,MessagesPlaceholder
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
+from langchain.llms import HuggingFaceEndpoint
 
 
+
+
+llm = HuggingFaceEndpoint(repo_id="TheBloke/Mistral-7B-Instruct-v0.2-GGUF")
 
 
 # Create a new Chroma client
 
-llm = Ollama(model="llama3")
+#llm = Ollama(model="llama3")
+
 
 load_dotenv()
 
