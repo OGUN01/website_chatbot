@@ -7,3 +7,4 @@ bs4 == 0.0.2
 streamlit==1.35.0
 python-dotenv==1.0.1
 pysqlite3-binary == 0.5.2
+langchain_huggingface == 0.0.1
