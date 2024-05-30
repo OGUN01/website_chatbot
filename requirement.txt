@@ -1,7 +1,8 @@
 langchain
 langchain_community
+langchain_core
 sentence-transformers
 python-dotenv
 streamlit
 chromadb
-beautifulsoup4
+bs4==0.0.2
