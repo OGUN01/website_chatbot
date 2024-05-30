@@ -1,8 +1,0 @@
-langchain
-langchain_community
-langchain_core
-sentence-transformers
-python-dotenv
-streamlit
-chromadb
-bs4==0.0.2
