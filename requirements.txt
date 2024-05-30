@@ -6,3 +6,4 @@ sentence-transformers
 bs4 == 0.0.2
 streamlit==1.30.0
 python-dotenv==1.0.1
+sqlite3 == 3.35.0
