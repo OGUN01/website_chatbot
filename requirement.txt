@@ -1,0 +1,7 @@
+langchain
+langchain_community
+sentence-transformers
+python-dotenv
+streamlit
+chromadb
+beautifulsoup4
