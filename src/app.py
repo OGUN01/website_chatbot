@@ -9,7 +9,6 @@ from langchain.prompts import ChatPromptTemplate,MessagesPlaceholder
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_community.llms import HuggingFaceEndpoint
-from langchain_huggingface.llms import HuggingFaceEndpoint
 
 
 
