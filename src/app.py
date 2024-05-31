@@ -9,7 +9,7 @@ from langchain.prompts import ChatPromptTemplate,MessagesPlaceholder
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_huggingface.llms import HuggingFaceEndpoint
-
+import os
 
 
 __import__('pysqlite3')
@@ -19,6 +19,7 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 load_dotenv()
 
+os.environ["force_download"]=True
 
 llm = HuggingFaceEndpoint(repo_id="mistralai/Mistral-7B-Instruct-v0.3")
 
