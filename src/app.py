@@ -19,7 +19,6 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 load_dotenv()
 
-os.environ["force_download"]=True
 
 llm = HuggingFaceEndpoint(repo_id="mistralai/Mistral-7B-Instruct-v0.3")
 
