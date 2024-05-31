@@ -20,7 +20,7 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 load_dotenv()
 
 
-llm = HuggingFaceEndpoint(repo_id="meta-llama/Meta-Llama-3-8B")
+llm = HuggingFaceEndpoint(repo_id="mistralai/Mixtral-8x7B-Instruct-v0.1")
 
 
 # Create a new Chroma client
